@@ -7,7 +7,6 @@ import Map from './components/map/Map';
 function App() {
   return (
     <>
-      <h2>Hello</h2>
       <CssBaseline />
       <Header />
       <Grid container spacing={3} style={{ backgroundColor: 'red', width: '100%' }}>
