@@ -1,4 +1,4 @@
-import { CircularProgress, Grid, Typography, InputLabel, MenuItem, FormControl, Select, Menu, Card } from "@material-ui/core"
+import { CircularProgress, Grid, Typography, InputLabel, MenuItem, FormControl, Select } from "@material-ui/core"
 import PlaceDetails from '../placedetails/PlaceDetails'
 
 import useStyles from './styles'
