@@ -11,8 +11,6 @@ const List = ({ places, childClicked, isLoading, rating, type, setType, setRatin
   const classes = useStyles()
   const [eleRefs, seteleRefs] = useState([])
 
-  console.log({ childClicked })
-
   useEffect(() => {
     const refs = Array(places?.length).fill().map((_, i) => eleRefs[i] || createRef())
     seteleRefs(refs)
