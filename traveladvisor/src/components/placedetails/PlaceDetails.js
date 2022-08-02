@@ -2,6 +2,7 @@ import { Box, Typography, Button, Card, CardMedia, CardContent, CardActions, Chi
 import LocationOnIcon from '@material-ui/icons/LocationOnOutlined'
 import PhoneIcon from '@material-ui/icons/Phone'
 import Rating from '@material-ui/lab/Rating'
+import './PlaceDetails.css'
 
 import useStyles from './styles'
 
@@ -12,8 +13,7 @@ const PlaceDetails = ({ place, refProp, selected }) => {
 
   return (
     <Card elevation={6}>
-      <CardMedia
-        style={{ height: 400 }}
+      <CardMedia className='cardMedia'
         image={place.photo ? place.photo.images.large.url : 'https://www.foodserviceandhospitality.com/wp-content/uploads/2016/09/Restaurant-Placeholder-001.jpg'}
         title={place.name}
       />
